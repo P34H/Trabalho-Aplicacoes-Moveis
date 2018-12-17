@@ -1,0 +1,13 @@
+<p>
+  photo works!!
+</p>
+<div class="col-sm-4">
+  <p class="text-center" style="color:#d43f3a"><strong>{{ photo.id}}</strong></p><br>
+  <p class="text-center" style="color:#d43f3a"><strong>{{ photo.title}}</strong></p><br>
+  <p class="text-center" style="color:#d43f3a"><strong>{{ photo.url}}</strong></p><br>
+  <p class="text-center" style="color:#d43f3a"><strong>{{ photo.thumbnailUrl}}</strong></p><br>
+  <a href="#" data-toggle="collapse">
+      <img [src]="photo.imagem" class="img-circle person" alt="Random Name" width="255" height="255">
+  </a>
+  <button type="button" class="btn btn-warning">Detalhes</button>
+</div>
